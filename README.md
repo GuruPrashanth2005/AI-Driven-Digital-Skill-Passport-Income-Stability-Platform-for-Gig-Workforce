@@ -225,7 +225,10 @@ Future improvements may include:
 The **AI-Driven Digital Skill Passport & Income Stability Platform** reimagines gig work as a **structured, transparent, and financially secure ecosystem**. By combining **AI intelligence, IoT safety monitoring, and digital identity systems**, the platform empowers gig workers with **recognition, protection, and economic stability**.
 
 ---
+## 🤝 Collaborators
 
+## MADHUBALAKUMAR S • AHALYA R • YASWANTH S M • HARIVARSHINI S
+---
 # 📜 License
 
 This project is released under the **MIT License**.
