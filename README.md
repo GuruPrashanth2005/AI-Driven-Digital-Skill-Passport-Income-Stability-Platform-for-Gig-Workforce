@@ -1,249 +1,70 @@
-# AI-Driven Digital Skill Passport & Income Stability Platform for Gig Workforce
+# Getting Started with Create React App
 
-## Overview
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-The **AI-Driven Digital Skill Passport & Income Stability Platform** is an intelligent labor-technology infrastructure designed to bring **income stability, skill verification, wage transparency, and safety monitoring** to the gig and informal workforce.
+## Available Scripts
 
-Millions of gig workers such as **electricians, delivery partners, drivers, mechanics, and rural technicians** face challenges including irregular income, lack of verified skill credentials, wage exploitation, and absence of financial credibility records. Additionally, high-risk jobs often lack safety monitoring systems.
+In the project directory, you can run:
 
-This platform leverages **Artificial Intelligence, IoT integration, and digital identity infrastructure** to create a **trusted, transparent, and financially stable ecosystem** for workers and employers.
+### `npm start`
 
----
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-# Problem Statement
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-Gig and informal workers experience several structural challenges:
+### `npm test`
 
-* Lack of **verified proof of skills**
-* **Irregular and unpredictable income**
-* **Underpayment due to lack of wage transparency**
-* No **credit history** for loans, insurance, or financial services
-* Absence of **real-time safety monitoring**
-* Limited **career mobility and skill recognition**
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-These issues prevent gig workers from achieving **financial stability and professional growth**.
+### `npm run build`
 
----
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-# Solution
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-The proposed platform introduces an **AI-powered digital ecosystem** that enables workers to build a **portable skill identity**, receive **fair wage insights**, improve **financial stability**, and ensure **workplace safety**.
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-The system integrates:
+### `npm run eject`
 
-* AI-based skill verification
-* Smart wage prediction
-* Digital skill identity (Skill Passport)
-* Income forecasting
-* IoT-based safety monitoring
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-Together, these features transform gig work into a **structured and data-driven labor ecosystem**.
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
----
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-# Key Features
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## 1. AI-Based Skill Assessment
+## Learn More
 
-Workers upload task videos demonstrating their skills (repair work, installation, driving, mechanical tasks, etc.).
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-The AI system analyzes:
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-* Task accuracy
-* Work efficiency
-* Tool usage
-* Safety practices
+### Code Splitting
 
-The platform generates a **Skill Score and Verification Certificate**, enabling workers to prove their expertise without formal institutional certification.
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
----
+### Analyzing the Bundle Size
 
-## 2. Digital Skill Passport
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-Each worker receives a **portable digital identity profile** that stores:
+### Making a Progressive Web App
 
-* Verified skills
-* Work experience
-* Job completion history
-* Employer ratings
-* Income analytics
-* Reputation score
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-This passport acts as a **trusted professional identity** that workers can use across multiple platforms and employers.
+### Advanced Configuration
 
----
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-## 3. AI Wage Prediction Engine
+### Deployment
 
-The system predicts **fair wages for jobs** using machine learning models trained on:
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-* Location-based demand
-* Worker skill level
-* Market rates
-* Seasonal trends
-* Worker performance ratings
+### `npm run build` fails to minify
 
-This helps prevent **wage exploitation** and improves **payment transparency**.
-
----
-
-## 4. Income Stability Forecasting
-
-An AI forecasting model analyzes:
-
-* Work frequency
-* Seasonal demand patterns
-* Worker performance
-* Job categories
-
-The model predicts **potential low-income periods** and activates a **smart savings buffer recommendation** to help workers maintain financial stability.
-
----
-
-## 5. IoT-Based Worker Safety Monitoring
-
-The platform integrates **wearable IoT devices** for high-risk jobs.
-
-Sensors monitor:
-
-* Fall detection
-* Abnormal motion patterns
-* Excessive work hours
-* Hazard conditions
-
-When risk is detected, the system triggers **real-time emergency alerts** to employers or emergency contacts.
-
----
-
-# System Architecture
-
-The platform consists of the following major components:
-
-### Worker Interface
-
-* Mobile Application
-* Skill Passport Dashboard
-* Job Activity Tracking
-* Income Insights
-
-### AI Intelligence Layer
-
-* Skill Assessment Engine
-* Wage Prediction Model
-* Income Forecasting Model
-* Reputation Scoring System
-
-### IoT Safety Layer
-
-* Wearable safety device
-* Motion and fall detection sensors
-* Real-time alert system
-
-### Data Infrastructure
-
-* Cloud-based worker database
-* Secure digital identity storage
-* Analytics pipeline
-
----
-
-# Technology Stack
-
-### Artificial Intelligence
-
-* Python
-* TensorFlow / PyTorch
-* OpenCV (video skill analysis)
-* Machine Learning models for wage prediction and forecasting
-
-### Backend
-
-* Node.js / Python (FastAPI)
-* REST APIs
-* Cloud storage
-
-### Frontend
-
-* React / React Native
-* Mobile dashboard interface
-
-### IoT
-
-* Wearable sensors
-* Accelerometer
-* Motion detection modules
-
-### Cloud Infrastructure
-
-* AWS / Google Cloud / Azure
-* Secure worker identity database
-* Real-time analytics processing
-
----
-
-# Expected Impact
-
-The system aims to improve gig workforce conditions by enabling:
-
-* **Verified digital skill identities**
-* **Fair wage prediction**
-* **Income stability forecasting**
-* **Safety monitoring for high-risk jobs**
-* **Financial credibility for loans and insurance**
-
-This solution can support **millions of gig workers globally** by providing a **data-driven labor ecosystem**.
-
----
-
-# Potential Use Cases
-
-The platform can be implemented across multiple industries:
-
-* Gig economy platforms
-* Skilled labor marketplaces
-* Construction industry
-* Rural technician networks
-* Delivery and logistics workforce
-* Government skill development programs
-
----
-
-# Future Enhancements
-
-Future improvements may include:
-
-* Blockchain-based skill verification
-* Government digital identity integration
-* AI-based job matching engine
-* Worker micro-insurance integration
-* Global labor marketplace connectivity
-
----
-
-# Conclusion
-
-The **AI-Driven Digital Skill Passport & Income Stability Platform** reimagines gig work as a **structured, transparent, and financially secure ecosystem**. By combining **AI intelligence, IoT safety monitoring, and digital identity systems**, the platform empowers gig workers with **recognition, protection, and economic stability**.
-
----
-## 🤝 Collaborators
-
-## MADHUBALAKUMAR S • AHALYA R • YASWANTH S M • HARIVARSHINI S
----
-# 📜 License
-
-This project is released under the **MIT License**.
-
----
-
-# 👨‍💻 Author
-
-**GURU PRASHANTH S**
-AIML Student | AI Systems Builder
-
-Focused on building **real-world AI systems for governance, automation, and intelligent infrastructure.**
-
-
-
-
-
-
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
